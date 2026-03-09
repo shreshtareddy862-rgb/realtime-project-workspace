@@ -96,17 +96,24 @@ git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
      DELETE /projects/:id
 
 ## Tasks:
-Get tasks for a project: GET /tasks/:projectId
-Create task: POST /tasks
-Update task: PUT /tasks/:id
-Update task status (drag & drop): PUT /tasks/status/:id
-Delete task: DELETE /tasks/:id
-Upload task attachment:POST /tasks/upload/:id
+### Get tasks for a project: 
+     GET /tasks/:projectId
+### Create task: 
+     POST /tasks
+### Update task: 
+     PUT /tasks/:id
+### Update task status (drag & drop):
+     PUT /tasks/status/:id
+### Delete task: 
+     DELETE /tasks/:id
+### Upload task attachment:
+     POST /tasks/upload/:id
 
 
 ## Activity Logs:
-Get project activity timeline: GET /activities/:projectId
-Returns activity logs such as task creation, updates, and status changes.
+### Get project activity timeline: 
+     GET /activities/:projectId
+### Returns activity logs such as task creation, updates, and status changes.
 
 ## Author: Butukuri Shreshta
 
