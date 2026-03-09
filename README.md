@@ -22,6 +22,21 @@ A full-stack team collaboration platform similar to Trello / Notion Lite that al
 - Models: User, Project, Task, Activity
 
 ---
+## Project Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Task Board
+![Task Board](screenshots/board.png)
+
+### Activity Timeline
+![Activity](screenshots/activity.png)
+
+---
 
 ## Tech Stack
 
