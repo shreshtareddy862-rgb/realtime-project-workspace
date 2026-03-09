@@ -62,6 +62,7 @@ realtime-project-workspace
 ### 1. Clone the repository:  
 ``` bash 
 git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
+```
 ### 2. Start Backend:
      Navigate to backend folder: cd backend
      Install dependencies: npm install
@@ -71,7 +72,7 @@ git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
          JWT_SECRET=your_secret_key
      Run backend server: node server.js
      Backend will run on: http://localhost:5001
-  3. Start Frontend:
+### 3. Start Frontend:
      Open a new terminal and navigate to frontend folder: cd frontend
      Install dependencies: npm install
      Start frontend: npm run dev
