@@ -1,7 +1,23 @@
 # realtime-project-workspace
 Realtime Project Workspace:
 A full-stack team collaboration platform similar to Trello / Notion Lite that allows teams to create projects, manage tasks on a Kanban board, and collaborate in real-time.
-The system supports authentication, role-based access, drag-and-drop task management, activity logs, file uploads, analytics, and real-time updates using WebSockets.
+---
+# Features
+
+- User Authentication (JWT)
+- Role Based Access (Admin / Member)
+- Project CRUD
+- Task CRUD
+- Kanban Board (To-Do / In-Progress / Done)
+- Drag & Drop Tasks
+- Task Filters (priority, status, assignee)
+- File Upload Attachments
+- Activity Timeline
+- Project Analytics
+- Pagination
+- WebSocket realtime updates
+
+---
 
 ## Tech Stack
 
@@ -42,9 +58,11 @@ realtime-project-workspace
 └── README.md
 ```
 
-How to Run the Project:
-  1. Clone the repository:  git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
-  2. Start Backend:
+## How to Run the Project:
+### 1. Clone the repository:  
+''' bash 
+git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
+### 2. Start Backend:
      Navigate to backend folder: cd backend
      Install dependencies: npm install
      Create .env file in backend folder:
