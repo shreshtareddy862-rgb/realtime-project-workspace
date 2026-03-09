@@ -63,21 +63,45 @@ realtime-project-workspace
 ``` bash 
 git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
 ```
-### 2. Start Backend:
-#### Navigate to backend folder:
-     cd backend
-     Install dependencies: npm install
-     Create .env file in backend folder:
-         PORT=5001
-         DATABASE_URL=postgresql://username:password@localhost:5432/workspace
-         JWT_SECRET=your_secret_key
-     Run backend server: node server.js
-     Backend will run on: http://localhost:5001
+### 2. Start Backend
+
+Navigate to the backend folder:
+
+```bash
+cd backend
+```
+Create .env file in backend folder:
+```
+PORT=5001
+DATABASE_URL=postgresql://username:password@localhost:5432/workspace
+JWT_SECRET=your_secret_key
+```
+Run backend server: 
+
+     node server.js
+     
+Backend will run on: 
+```
+     http://localhost:5001
+```
 ### 3. Start Frontend:
-     Open a new terminal and navigate to frontend folder: cd frontend
-     Install dependencies: npm install
-     Start frontend: npm run dev
-     Frontend will run on: http://localhost:3000
+
+Open a new terminal and navigate to frontend folder: 
+```
+     cd frontend
+```
+Install dependencies: 
+```
+     npm install
+```
+Start frontend: 
+```
+     npm run dev
+```
+Frontend will run on: 
+```
+     http://localhost:3000
+```
 
 ## API Routes:
  ### Authentication:
