@@ -64,7 +64,8 @@ realtime-project-workspace
 git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
 ```
 ### 2. Start Backend:
-     Navigate to backend folder: cd backend
+#### Navigate to backend folder:
+     cd backend
      Install dependencies: npm install
      Create .env file in backend folder:
          PORT=5001
