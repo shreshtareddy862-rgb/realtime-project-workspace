@@ -4,7 +4,9 @@ A full-stack team collaboration platform similar to Trello / Notion Lite that al
 ---
 # Features
 
-- User Authentication (JWT)
+- User Authentication (JWT-Based)
+- Dashboard listing all projects
+- tasks with title, description, priority, and assignee
 - Role Based Access (Admin / Member)
 - Project CRUD
 - Task CRUD
@@ -16,6 +18,8 @@ A full-stack team collaboration platform similar to Trello / Notion Lite that al
 - Project Analytics
 - Pagination
 - WebSocket realtime updates
+- Data Validation
+- Models: User, Project, Task, Activity
 
 ---
 
