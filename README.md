@@ -80,8 +80,10 @@ git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
 
 ## API Routes:
  ### Authentication:
-   Register User: POST /auth/register
-   Login User: POST /auth/login
+### Register User: 
+     POST /auth/register
+### Login User: 
+     POST /auth/login
 
 ## Projects:
 ### 1. Get all projects: 
