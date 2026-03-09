@@ -1,6 +1,6 @@
 # realtime-project-workspace
-Realtime Project Workspace:
-A full-stack team collaboration platform similar to Trello / Notion Lite that allows teams to create projects, manage tasks on a Kanban board, and collaborate in real-time.
+#### Realtime Project Workspace:
+#### A full-stack team collaboration platform similar to Trello / Notion Lite that allows teams to create projects, manage tasks on a Kanban #### board, and collaborate in real-time.
 ---
 # Features
 
