@@ -77,67 +77,94 @@ DATABASE_URL=postgresql://username:password@localhost:5432/workspace
 JWT_SECRET=your_secret_key
 ```
 Run backend server: 
-
-     node server.js
+```
+node server.js
+```
      
 Backend will run on: 
 ```
-     http://localhost:5001
+http://localhost:5001
 ```
 ### 3. Start Frontend:
 
 Open a new terminal and navigate to frontend folder: 
 ```
-     cd frontend
+cd frontend
 ```
 Install dependencies: 
 ```
-     npm install
+npm install
 ```
 Start frontend: 
 ```
-     npm run dev
+npm run dev
 ```
 Frontend will run on: 
 ```
-     http://localhost:3000
+http://localhost:3000
 ```
 
 ## API Routes:
- ### Authentication:
+### Authentication:
 ### Register User: 
-     POST /auth/register
+```
+POST /auth/register
+```
 ### Login User: 
-     POST /auth/login
+```
+POST /auth/login
+```
 
 ## Projects:
 ### 1. Get all projects: 
-     GET /projects
+```
+GET /projects
+```
 ### 2. Create project: 
-     POST /projects
+```
+POST /projects
+```
 ### 3. Update project: 
-     PUT /projects/:id
+```
+PUT /projects/:id
+```
 ### 4. Delete project:
-     DELETE /projects/:id
+```
+DELETE /projects/:id
+```
 
 ## Tasks:
-### Get tasks for a project: 
-     GET /tasks/:projectId
-### Create task: 
-     POST /tasks
+### Get tasks for a project:
+```
+GET /tasks/:projectId
+```
+### Create task:
+```
+POST /tasks
+```
 ### Update task: 
-     PUT /tasks/:id
+```
+PUT /tasks/:id
+```
 ### Update task status (drag & drop):
-     PUT /tasks/status/:id
+```
+PUT /tasks/status/:id
+```
 ### Delete task: 
-     DELETE /tasks/:id
+```
+DELETE /tasks/:id
+```
 ### Upload task attachment:
-     POST /tasks/upload/:id
+```
+POST /tasks/upload/:id
+```
 
 
 ## Activity Logs:
 ### Get project activity timeline: 
-     GET /activities/:projectId
+```
+GET /activities/:projectId
+```
 ### Returns activity logs such as task creation, updates, and status changes.
 
 ## Author: Butukuri Shreshta
