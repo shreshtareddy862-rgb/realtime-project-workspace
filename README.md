@@ -60,7 +60,7 @@ realtime-project-workspace
 
 ## How to Run the Project:
 ### 1. Clone the repository:  
-''' bash 
+``` bash 
 git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
 ### 2. Start Backend:
      Navigate to backend folder: cd backend
