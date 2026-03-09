@@ -78,18 +78,22 @@ git clone https://github.com/shreshtareddy862-rgb/realtime-project-workspace.git
      Start frontend: npm run dev
      Frontend will run on: http://localhost:3000
 
-API Routes:
- Authentication:
+## API Routes:
+ ### Authentication:
    Register User: POST /auth/register
    Login User: POST /auth/login
 
-Projects:
-1. Get all projects: GET /projects
-2. Create project: POST /projects
-3. Update project: PUT /projects/:id
-4. Delete project: DELETE /projects/:id
+## Projects:
+### 1. Get all projects: 
+     GET /projects
+### 2. Create project: 
+     POST /projects
+### 3. Update project: 
+     PUT /projects/:id
+### 4. Delete project:
+     DELETE /projects/:id
 
-Tasks:
+## Tasks:
 Get tasks for a project: GET /tasks/:projectId
 Create task: POST /tasks
 Update task: PUT /tasks/:id
@@ -98,11 +102,11 @@ Delete task: DELETE /tasks/:id
 Upload task attachment:POST /tasks/upload/:id
 
 
-Activity Logs:
+## Activity Logs:
 Get project activity timeline: GET /activities/:projectId
 Returns activity logs such as task creation, updates, and status changes.
 
-Author: Butukuri Shreshta
+## Author: Butukuri Shreshta
 
 
      
